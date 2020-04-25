@@ -20,5 +20,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "react-hooks", "prettier"],
-  "rules": {}
+  "rules": {
+    "react/prop-types": "off"
+  }
 }
