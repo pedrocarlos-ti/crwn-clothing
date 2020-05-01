@@ -1,5 +1,10 @@
-import * as Types from './cart.types';
+import CartActionTypes from './cart.types';
 
 export const toogleCartHidden = () => ({
-  type: Types.TOOGLE_CART_HIDDEN,
+  type: CartActionTypes.TOOGLE_CART_HIDDEN,
+});
+
+export const addItem = item => ({
+  type: CartActionTypes.ADD_ITEM,
+  payload: item,
 });
